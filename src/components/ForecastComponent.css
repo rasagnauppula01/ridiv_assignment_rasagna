@@ -1,0 +1,27 @@
+/* ForecastComponent.css */
+
+.forecast-container {
+    margin-top: 20px;
+    /* margin-left: -15rem; */
+    text-align: center;
+  }
+  
+  .forecast-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .forecast-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: calc(17% - 20px); /* Adjust width as needed */
+  }
+  
+  .forecast-item p {
+    margin: 5px 0;
+
+  }
+  

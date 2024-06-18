@@ -1,0 +1,43 @@
+.favorite-container {
+    width: 100%;
+    max-width: 500px;
+    color: black;
+    
+  }
+  
+  .favorite-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .favorite-container li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+  
+  .favorite-container input {
+    padding: 10px;
+    width: calc(90% - 50px);
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin: 5px;
+  }
+  
+  .favorite-container button {
+    padding: 10px 15px ;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    gap: 5px;
+  }
+  
+  .favorite-container button:hover {
+    background-color: #0056b3;
+  }
+  
